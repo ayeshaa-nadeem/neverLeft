@@ -1,0 +1,45 @@
+.modalInputStylingManager span.ant-input-affix-wrapper.ant-input-password.inputStyling{
+    border: 1px solid gray !important;
+}
+.ant-form-item.ant-form-item-has-success{
+    margin-bottom: 12px;
+}
+.ant-picker {
+    height: 60px !important;
+    border: 1px solid gray !important;
+    border-radius: 10px !important;
+    width: 100%;
+    font-family: "Helvetica" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    color: #000000 !important;
+}
+.ant-picker.ant-picker-status-success {
+    width: 100%;
+}
+div#dateofbirth {
+    width: 100%;
+}
+.managerScrollContent {
+    height: 40vh;
+}
+.managerScrollContent,
+.universitiesScroll:hover,
+.universitiesScroll:focus {
+  visibility: visible;
+}
+.clubcard1{
+    margin: auto;
+}
+form.ant-form.ant-form-horizontal{
+    height: 100%;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: 1px solid gray !important;
+    border-radius: 10px !important;
+    padding: 7px 11px !important;
+    height: 100% !important;
+}

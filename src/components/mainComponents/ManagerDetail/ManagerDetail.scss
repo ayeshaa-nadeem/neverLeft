@@ -1,0 +1,44 @@
+.managerDetailInputScroll .ant-space.ant-space-vertical {
+    width: 100%;
+}
+.managerDetailInputScroll {
+  width: 50%;
+  margin: auto;
+  height: 230px;
+}
+.managerDetailInputScroll label {
+  color: #5ce1e6 !important;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px !important;
+  line-height: 18px;
+  width: 150px;
+}
+.managerDetailInputScroll .ant-col.ant-form-item-label {
+  width: 165px;
+}
+.radioButtons{
+  width: 900px;
+}
+@media(max-width:1600px){
+  .radioButtons {
+    width: 810px;
+  }
+}
+@media(max-width:1400px){
+  .radioButtons {
+    width: 640px;
+  }
+  .radioButtons.ant-radio-group.ant-radio-group-outline{
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .manageretailInputScroll {
+    width: 75%;
+  }
+  .managerDetailInputScroll .ant-col.ant-form-item-label {
+    width: 160px !important;
+  }
+}

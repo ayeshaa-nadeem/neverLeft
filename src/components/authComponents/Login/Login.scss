@@ -1,0 +1,258 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginLogoContainer {
+  width: 40%;
+  background-image: url("../../../assets//images/loginBg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginCred {
+  width: 60%;
+  background-color: #0a0a0a;
+}
+.loginCredContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siteLogo {
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.loginContainerText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.formContent {
+  align-items: center;
+  display: flex;
+}
+.formFields {
+  border: 1px solid #5ce1e6;
+  border-radius: 20px;
+  height: 43%;
+  width: 750px;
+  background: linear-gradient(
+    360deg,
+    rgba(92, 225, 230, 0.51) 24.2%,
+    rgba(255, 255, 255, 0) 58.86%
+  );
+}
+.loginSignin {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #5ce1e6;
+  padding-top: 23px;
+  margin-bottom: 10px;
+}
+.loginText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #5ce1e6;
+  padding-bottom: 35px;
+  display: block;
+}
+.loginCredText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #00c2cb;
+}
+.NLBtnStyling button {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.loginCredFormStyling {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginCredFormStyling form.ant-form.ant-form-horizontal {
+  height: 255px;
+  padding-bottom: 8px;
+}
+input.ant-input.inputStyling {
+  height: 60px !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+  border: 1px solid #ffffff !important;
+  text-align: start !important;
+  margin-bottom: 0px;
+}
+.NLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+  margin-bottom: 10px;
+}
+span.ant-input-affix-wrapper.ant-input-password.inputStyling {
+  height: 60px !important;
+  border: 1px solid #ffffff !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+}
+.NLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+  height: 60px !important;
+  border: 1px solid #dfdddd !important;
+  background-color: #dfdddd !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.formStyling .ant-form-item {
+  margin-bottom: 8px;
+}
+.forgetPass {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.loginField .ant-form-item-explain-error {
+  text-align: left;
+}
+@media (max-width: 1600px) {
+  .loginContainerText {
+    font-size: 18px;
+  }
+  .loginSignin {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  span.ant-input-affix-wrapper.ant-input-password.inputStyling {
+    height: 60px !important;
+  }
+  .loginCredText {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1400px) {
+  input.ant-input.inputStyling,
+  span.ant-input-affix-wrapper.ant-input-password.inputStyling,
+  button.ant-btn.ant-btn-primary.NLBtn {
+    height: 55px !important;
+    margin-bottom: 0px;
+  }
+  .loginSignin {
+    padding-top: 12px;
+  }
+  .formFields {
+    width: 600px;
+  }
+  .loginCredFormStyling form.ant-form.ant-form-horizontal {
+    height: 240px;
+  }
+}
+@media (max-width: 1200px) {
+  .loginContainerText {
+    font-size: 16px;
+  }
+  .loginSignin {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  input.ant-input.inputStyling {
+    height: 55px !important;
+  }
+  span.ant-input-affix-wrapper.ant-input-password.inputStyling {
+    height: 50px !important;
+  }
+  button.ant-btn.ant-btn-primary.NLBtn {
+    height: 50px !important;
+  }
+  .formFields {
+    width: 460px;
+  }
+  .loginCredText {
+    font-size: 16px;
+  }
+}
+@media (max-width: 992px) {
+  .formFields {
+    width: 380px;
+  }
+  .loginSignin {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .loginText {
+    font-size: 16px;
+  }
+  .modalInputStyling input.ant-input.inputStyling {
+    height: 50px !important;
+  }
+  .ant-col.ant-form-item-label {
+    width: 90px !important;
+  }
+  .NLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+    height: 50px !important;
+  }
+  span.ant-input-affix-wrapper.ant-input-password.inputStyling {
+    height: 45px !important;
+  }
+  button.ant-btn.ant-btn-primary.NLBtn {
+    height: 45px !important;
+  }
+  button.ant-btn.ant-btn-primary.NLBtn {
+    font-size: 12px !important;
+  }
+  .forgetPass {
+    font-size: 14px;
+  }
+  .loginLogoContainer {
+    display: none;
+  }
+  .loginCred {
+    width: 100%;
+  }
+  input.ant-input.inputStyling {
+    height: 50px !important;
+  }
+}
+@media (max-width: 768px) {
+  .loginLogoContainer {
+    display: none;
+  }
+  .loginCred {
+    width: 100%;
+  }
+}

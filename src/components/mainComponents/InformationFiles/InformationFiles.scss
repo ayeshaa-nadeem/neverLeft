@@ -1,0 +1,219 @@
+.infoFilesContainer {
+  background-color: #0a0a0a;
+  height: 100vh;
+}
+.infoFilesInnerContainer {
+  width: 80%;
+  margin: auto;
+}
+.infoFilesPoweredText {
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.infoPageOuterContainer {
+  border: 2px solid #00c2cb;
+  border-radius: 10px;
+  height: 570px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoFilespageHeading {
+  background: #0a0a0a;
+  position: absolute;
+  width: 26%;
+  top: -4%;
+  left: 4%;
+}
+.infoFilespageHeading h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 54px;
+  color: #5ce1e6;
+  background: transparent;
+}
+.custColStyling .ant-col.ant-col-8 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.logoinstitution {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.infoFilespoweredText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: end;
+  color: #00c2cb;
+  display: block;
+}
+.ant-row {
+  align-items: center !important;
+}
+
+.ant-upload-list {
+  display: flex;
+  justify-content: end;
+}
+.ant-upload.ant-upload-select-picture-card {
+  height: 70px !important;
+  width: 200px !important;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #00c2cb !important;
+  color: #0a0a0a;
+  border: 1px solid #00c2cb !important;
+}
+.infoContainer {
+  display: flex;
+  height: 50vh;
+  width: 55%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.infoContainer form.ant-form.ant-form-horizontal {
+  height: 75px;
+}
+.infoContainer button.ant-btn.ant-btn-primary.NLBtn {
+  height: 60px !important;
+  width: 175px !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  background-color: #00c2cb !important;
+  color: #0a0a0a !important;
+  border: 1px solid #00c2cb !important;
+}
+.uploadFile {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #00c2cb;
+  height: 60px;
+}
+.ant-upload-list.ant-upload-list-text {
+  display: none;
+}
+.infoContainer .ant-spin-dot-item {
+  background-color: white;
+}
+.reqAttributes a{
+  color: #00c2cb;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 10px;
+}
+.reqAttributes a:hover{
+  color: #00c2cb;
+}
+.uploadwAttributes {
+  width: 74%;
+}
+.linkIcon svg{
+  color: #00c2cb;
+  cursor: pointer;
+}
+.linkwIcon{
+  display: flex;
+  width: 378px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1600px) {
+  .logoinstitution {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .infoPageOuterContainer {
+    height: 450px;
+  }
+  .infoFilespageHeading h1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .infoFilespageHeading {
+    width: 30%;
+  }
+  .infoFilespoweredText {
+    font-size: 18px;
+  }
+  .uploadwAttributes {
+    width: 70%;
+  }
+  .infoContainer {
+    height: 35vh;
+  }
+}
+@media (max-width: 1400px) {
+  .infoFilespoweredText {
+    font-size: 16px;
+  }
+  .logoinstitution {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .uploadwAttributes {
+    width: 65%;
+  }
+  .uploadFile{
+    height: 95px;
+  }
+}
+@media (max-width: 1200px) {
+  .infoFilespageHeading h1 {
+    font-size: 20px;
+  }
+  .uploadwAttributes {
+    width: 60%;
+  }
+  .reqAttributes {
+    font-size: 12px;
+  }
+  .linkwIcon {
+    width: 290px;
+  }
+}
+@media (max-width: 992px) {
+  .infoFilespoweredText {
+    font-size: 16px;
+    justify-content: center;
+  }
+  .infoContainer {
+    width: 80%;
+  }
+  .infoFilespageHeading h1 {
+    font-size: 16px;
+    line-height: 37px;
+  }
+  .infoFilespageHeading {
+    width: 35%;
+  }
+  .infoContainer button.ant-btn.ant-btn-primary.NLBtn {
+    width: 170px !important;
+  }
+  .uploadFile{
+    font-size: 18px;
+  }
+}

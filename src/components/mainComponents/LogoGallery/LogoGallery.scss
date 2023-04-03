@@ -1,0 +1,248 @@
+.logoGalleryContainer {
+  background-color: #0a0a0a;
+  height: 100vh;
+}
+.logoInnerContainer {
+  width: 80%;
+  margin: auto;
+}
+.logoInnerContainer form.ant-form.ant-form-horizontal {
+  height: 175px;
+}
+.logoPoweredText {
+  height: 170px;
+}
+.logoNLBtnStyling {
+  display: flex;
+  justify-content: end;
+}
+.logoNLBtnStyling button.ant-btn.ant-btn-default.NLBtn {
+  height: 60px !important;
+  width: 175px !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  background-color: #00c2cb !important;
+  color: #0a0a0a !important;
+  border: 1px solid #00c2cb !important;
+}
+.logoPageOuterContainer {
+  border: 2px solid #00c2cb;
+  border-radius: 10px;
+  height: 650px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logopageHeading {
+  background: #0a0a0a;
+  position: absolute;
+  width: 26%;
+  top: -4%;
+  left: 4%;
+}
+.logopageHeading h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 54px;
+  color: #5ce1e6;
+  background: transparent;
+}
+.custColStyling .ant-col.ant-col-8 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.logoinstitution {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.logopoweredText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: end;
+  color: #00c2cb;
+  display: block;
+  padding-bottom: 22px;
+}
+.logosScroll {
+  width: 95%;
+  margin: auto;
+  height: 55vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+}
+.scrollContent,
+.logosScroll:hover,
+.logosScroll:focus {
+  visibility: visible;
+}
+.ant-row {
+  align-items: center !important;
+}
+
+.ant-upload-list {
+  display: flex;
+  justify-content: end;
+}
+.ant-upload.ant-upload-select-picture-card {
+  height: 70px !important;
+  width: 200px !important;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #00c2cb !important;
+  color: #0a0a0a;
+  border: 1px solid #00c2cb !important;
+}
+.logoContainer img {
+  width: 100%;
+}
+.logoInnerContainer .ant-row {
+  display: flex;
+}
+.logoInputStyling {
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+.logoInputStyling input.ant-input.inputStyling {
+  text-align: center !important;
+  background-color: #00c2cb !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 23px !important;
+  border: 1px solid #00c2cb !important;
+  height: 70px !important;
+}
+.logoGalleryImg{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #00c2cb;
+
+}
+.logoGalleryImg img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: contain;
+}
+span.anticon.anticon-close-circle.crossInstIcon {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  color: aqua;
+}
+.logosScroll .scrollContent .ant-spin-spinning {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nothingtoshow {
+  font-size: 20px;
+  line-height: 40px;
+  color: #00c2cb;
+  display: block;
+}
+.noImgs {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 1600px) {
+  .logoinstitution {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .logoPageOuterContainer {
+    height: 450px;
+  }
+  .logopageHeading h1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .logopoweredText {
+    font-size: 18px;
+  }
+  .logoPageOuterContainer {
+    height: 460px;
+  }
+}
+@media (max-width: 1400px) {
+  .logopoweredText {
+    font-size: 16px;
+  }
+  .logoNLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+    font-size: 18px !important;
+  }
+  .logoinstitution {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .logoNLBtnStyling {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .logoNLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+    height: 65px !important;
+    width: 165px !important;
+  }
+  .logoInputStyling input.ant-input.inputStyling {
+    height: 65px !important;
+    width: 165px !important;
+  }
+  .logopageHeading h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .logoNLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+    height: 60px !important;
+    width: 140px !important;
+  }
+  .logoInputStyling input.ant-input.inputStyling {
+    height: 60px !important;
+    width: 140px !important;
+  }
+  .logopoweredText {
+    font-size: 16px;
+    justify-content: center;
+  }
+  .logosScroll {
+    height: 30vh;
+  }
+  .logopageHeading h1 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .logoNLBtnStyling button.ant-btn.ant-btn-default.NLBtn {
+    width: 170px !important;
+    font-size: 16px !important;
+  }
+  .noImgs {
+    height: 30vh;
+  }
+}

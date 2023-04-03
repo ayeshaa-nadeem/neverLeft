@@ -1,0 +1,247 @@
+.clubContainer {
+  background-color: #0a0a0a;
+  height: 100vh;
+}
+.clubInnerContainer {
+  width: 80%;
+  margin: auto;
+}
+.clubPoweredText {
+  height: 170px;
+}
+.clubNLBtnStyling {
+  padding-top: 22px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.clubNLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+  height: 60px !important;
+  width: 175px !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  background-color: #00c2cb !important;
+  color: #0a0a0a !important;
+  border: 1px solid #00c2cb !important;
+}
+.clubPageOuterContainer {
+  border: 2px solid #00c2cb;
+  border-radius: 10px;
+  height: 650px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clubpageHeading {
+  background: #0a0a0a;
+  position: absolute;
+  width: 26%;
+  top: -5%;
+  left: 4%;
+}
+.clubpageHeading h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  color: #5ce1e6;
+  background: transparent;
+}
+.clubcard1 {
+  background-image: url(../../../assets//images/buttonbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.clubcardInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clubcardInner button.ant-btn.ant-btn-primary.NLBtn {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 44px !important;
+  text-align: center !important;
+  color: #0a0a0a !important;
+}
+.custColStyling .ant-col.ant-col-8 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.clubinstitution {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #0a0a0a;
+  overflow: hidden;
+  max-width: 130px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-overflow: ellipsis;
+}
+.clubpoweredText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: end;
+  color: #00c2cb;
+  display: block;
+}
+.universitiesScroll {
+  width: 95%;
+  margin: auto;
+  height: 74%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.scrollContent,
+.universitiesScroll:hover,
+.universitiesScroll:focus {
+  visibility: visible;
+}
+.ant-row {
+  align-items: center !important;
+}
+.universitiesScroll .ant-col.ant-col-6 {
+  display: flex;
+  justify-content: center;
+}
+.modalInputStyling input.ant-input.inputStyling {
+  border: 1px solid gray !important;
+  height: 60px !important;
+}
+.clubFieldsStyling {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.clubNoData {
+  color: #00c2cb;
+  display: block;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  line-height: 24px;
+}
+@media (max-width: 1600px) {
+  .clubinstitution {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .clubPoweredText {
+    height: 170px;
+  }
+  .clubPageOuterContainer {
+    height: 460px;
+  }
+  .clubpageHeading h1 {
+    font-size: 30px;
+  }
+  .clubcard1 {
+    width: 180px;
+    height: 170px;
+  }
+  .clubpoweredText {
+    font-size: 18px;
+  }
+  .universitiesScroll {
+    height: 88%;
+  }
+}
+@media (max-width: 1400px) {
+  .clubcard1 {
+    width: 170px;
+    height: 160px;
+  }
+  .clubpoweredText {
+    font-size: 16px;
+  }
+  .clubNLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+    font-size: 18px !important;
+  }
+  .clubinstitution {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .modalInputStyling input.ant-input.inputStyling {
+    height: 55px !important;
+  }
+  .universitiesScroll {
+    height: 84%;
+  }
+  .clubNoData{
+    height: 330px;
+  }
+}
+@media (max-width: 1200px) {
+  .clubNLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+    height: 65px !important;
+    width: 165px !important;
+  }
+  .clubcard1 {
+    width: 140px;
+    height: 135px;
+  }
+  .clubpageHeading h1 {
+    font-size: 28px;
+  }
+  .universitiesScroll {
+    height: 72%;
+  }
+  .clubNoData{
+    height: 280px;
+  }
+}
+@media (max-width: 992px) {
+  .clubcard1 {
+    width: 125px;
+    height: 110px;
+  }
+  .clubNLBtnStyling button.ant-btn.ant-btn-primary.NLBtn {
+    height: 55px !important;
+    width: 140px !important;
+    font-size: 14px !important;
+  }
+  .clubpoweredText {
+    font-size: 16px;
+    justify-content: center;
+  }
+  .universitiesScroll {
+    height: 86%;
+  }
+  .clubpageHeading h1 {
+    font-size: 16px !important;
+    line-height: 33px;
+  }
+  .clubpageHeading {
+    width: 15%;
+  }
+  .clubNoData{
+    height: 360px;
+  }
+}

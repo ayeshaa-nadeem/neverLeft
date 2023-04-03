@@ -1,0 +1,172 @@
+.studentInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(".././../../assets/images/studentinfobg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.studentInfoContent {
+  height: 80%;
+  width: 485px;
+  border-radius: 20px;
+}
+.studenOuterCrdParent {
+  padding-bottom: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+.studenInfoContainer {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.studentInfoImgdiv {
+  position: absolute;
+  left: 158px;
+  top: 0;
+}
+.studentCard {
+  border-radius: 13px;
+  width: 100%;
+}
+.studenOuterCrd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+}
+.studetLogoContainer {
+  padding: 10px 0;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  border-radius: 13px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  display: flex;
+}
+.studentData {
+  display: flex;
+  width: 100%;
+}
+.studentName,.studentValue {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.85rem;
+    line-height: 26px;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.studentValue{
+  font-weight: 300;
+}
+.universityLOgo,.scanner{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scanner canvas#qrCode {
+    width: 95px !important;
+    height: 95px !important;
+}
+.studentDataContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studentStyling{
+    width: 100%;
+}
+.studntApiData, .studentApiName {
+    width: 210px;
+    margin: auto;
+    word-break: break-all;
+    display: flex;
+}
+.studentApiName{
+  width: 175px;
+}
+.studentSpiner{
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studentBgimg{
+  width: 100%;
+}
+.studentBgimg svg{
+  width: 510px;
+}
+.studentInfoImgdiv img{
+  width: 100%;
+}
+.universityLOgo img{
+  width: 35%;
+}
+.studentInfoInnerContainer{
+height: 100%;
+width: 100%;
+}
+@media(max-width:1600px){
+  .studetLogoContainer {
+    height: 130px;
+  }
+  .studentInfoImgdiv{
+    left: 155px;
+  }
+}
+@media(max-width:1400px){
+  .universityLOgo img{
+    width: 30%;
+  }
+  .scanner canvas#qrCode {
+    width: 70px !important;
+    height: 65px !important;
+}
+.studetLogoContainer{
+  height: 100px;
+}
+.studentInfoContent{
+  height: 735px;
+}
+.studenOuterCrd {
+  height: 575px;
+}
+.studentCard {
+  height: 490px;
+}
+  .studentInfoImgdiv img{
+    width: 60%;
+  }
+}
+@media(max-width: 992px){
+  .studntApiData {
+    width: 110px;
+  }
+  .studentBgimg svg {
+    width: 470px;
+}
+.studenInfoContainer {
+  height: 800px
+}
+.studentInfoContent {
+  height: 700px;
+}
+.studenOuterCrd {
+  height: 540px;
+}
+.studentCard {
+  height: 450px;
+}
+}

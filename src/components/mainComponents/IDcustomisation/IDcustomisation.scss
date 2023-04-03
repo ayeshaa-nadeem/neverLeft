@@ -1,0 +1,1021 @@
+.idcustomisationContainer {
+  background-color: #0a0a0a;
+  height: 100vh;
+}
+.idcustomisationInnerContainer {
+  width: 80%;
+  margin: auto;
+}
+.idcustomisationPoweredText {
+  padding-top: 30px;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.idcustPageOuterContainer {
+  border: 2px solid #00c2cb;
+  border-radius: 10px;
+  height: 585px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: end;
+  padding-bottom: 20px;
+}
+.idcustomisationpageHeading {
+  background: #0a0a0a;
+  position: absolute;
+  width: 26%;
+  top: -5%;
+  left: 4%;
+  height: 40px;
+}
+.idcustomisationpageHeading h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 54px;
+  color: #5ce1e6;
+  background: transparent;
+}
+.idcustomisationpoweredText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: end;
+  color: #00c2cb;
+  display: block;
+}
+.ant-upload-list {
+  display: flex;
+  justify-content: end;
+}
+.ant-upload.ant-upload-select-picture-card {
+  height: 70px !important;
+  width: 200px !important;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #00c2cb !important;
+  color: #0a0a0a;
+  border: 1px solid #00c2cb !important;
+}
+.idcustContainer {
+  height: 96%;
+  width: 30%;
+  background-color: #00c2cb;
+  padding: 8px;
+}
+.idcustContainer2 {
+  padding-right: 20px;
+  height: 96%;
+  width: 63%;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  padding: 15px;
+  position: relative;
+}
+.idcustContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idcustContainer3 {
+  padding-right: 20px;
+  height: 96%;
+  width: 18%;
+  display: flex;
+  justify-content: end;
+  background-color: #00c2cb;
+  padding: 15px;
+}
+.idcustContainer button.ant-btn.ant-btn-primary.NLBtn {
+  height: 70px !important;
+  width: 200px !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  background-color: #00c2cb !important;
+  color: #0a0a0a !important;
+  border: 1px solid #00c2cb !important;
+}
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  display: none !important;
+}
+.idCustColStyling label {
+  color: white !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+}
+.idCustColStyling .ant-form-item-label > label {
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.idCustColStyling .ant-col {
+  max-width: 45%;
+}
+.idCustColStyling input.ant-input.inputStyling {
+  height: 25px !important;
+  border-radius: 5px !important;
+  width: 100%;
+}
+.idCustColStyling .ant-form-item-explain-error {
+  font-size: 12px !important;
+}
+.idCustCard {
+  height: 100%;
+  width: 310px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pickColorContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+  align-items: center;
+}
+.or {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 25px;
+  display: block;
+  text-align: left;
+}
+.pickColor {
+  color: white;
+  font-style: normal;
+  line-height: 20px;
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+.colorPickerContainer {
+  padding-right: 20px;
+  width: 185px;
+  display: flex;
+  align-items: center;
+}
+.idcustContainer .ant-row.ant-form-item-row {
+  display: flex;
+  justify-content: space-between;
+}
+.studentImgContainer {
+  position: absolute;
+  left: 127px;
+}
+.studentImgContainer img {
+  width: 50px;
+}
+.studentImgContainer {
+  height: 60px;
+  background: white;
+  width: 22%;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+.expiresDate {
+  color: #e5e5e5;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  display: block;
+  padding-top: 10px;
+}
+.studentName,
+.studentNo,
+.num,
+.studentSchool {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 50%;
+}
+.studentExamContainer {
+  padding-top: 5px;
+}
+.studentInfoname,
+.studentInfonNum {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.studentInfo {
+  width: 100%;
+  margin: auto;
+}
+.studentInfo .studentInfoname {
+  border-right: 1px solid white;
+}
+.pickGallery {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  display: block;
+}
+.idcustlogoContainer img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.idcustlogoContainer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idCustFormUpload form.ant-form.ant-form-horizontal {
+  height: 10vh;
+}
+.idCustFormUpload {
+  height: 10vh;
+}
+.logoQr {
+  width: 40%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section.container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idCustRightLogo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  height: 100px;
+  align-items: center;
+}
+.idCustRightLogoParentDiv {
+  width: 100%;
+  margin: auto;
+}
+.logoOr {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.idCustLogoGallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 70%;
+  margin: auto;
+}
+.schoolName {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.idCustColStyling .ant-form-item {
+  margin-bottom: 15px;
+}
+.ant-col.ant-form-item-label {
+  width: 125px;
+}
+.idCustColStyling {
+  height: 100px;
+}
+.idCustColStyling .ant-input.inputStyling {
+  text-align: center !important;
+}
+.idCustColStyling form.ant-form.ant-form-horizontal {
+  height: 65px;
+  width: 100%;
+}
+.activeIdContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 3vh;
+  align-items: center;
+}
+.activeId {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.ant-switch-checked {
+  background-color: white !important;
+}
+.ant-switch-handle::before {
+  background-color: black !important;
+}
+.ant-switch {
+  background-color: white !important;
+}
+.dividerCircle {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+.dividerStyling {
+  display: flex;
+}
+.ant-divider-horizontal {
+  width: 85% !important;
+  min-width: 60% !important;
+}
+.dividerCircleOuterContainerleft,
+.dividerCircleOuterContainerright {
+  width: 25px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.dividerCircleOuterContainerright {
+  justify-content: start;
+}
+canvas#qrCode {
+  width: 55px !important;
+  height: 55px !important;
+}
+.idcustlogoContainer .ant-modal-body {
+  height: 400px;
+}
+.idcustBusinessContainer img {
+  width: 45px;
+  height: 65px;
+  object-fit: contain;
+}
+.idCustScroll {
+  width: 95%;
+  margin: auto;
+  height: 35vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.scrollContent {
+  height: 430px;
+}
+.cardIconStyling {
+  background-color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+  border-radius: 30px;
+  color: #00c2cb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  width: 155px;
+}
+.idCustCardIconStyling {
+  position: absolute;
+  right: 0;
+  top: -7px;
+}
+.plusIconStyling {
+  background-color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+  height: 35px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.plusIconStyling img {
+  width: 20px;
+  cursor: pointer;
+}
+span.anticon.anticon-plus-square {
+  font-size: 20px;
+}
+.cardStyle {
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  // visibility: hidden;
+  width: 100%;
+}
+.idCardStyle {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 5px;
+}
+.cardScrollContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardScrollContent,
+.cardStyle:hover,
+.cardStyle:focus {
+  visibility: visible;
+}
+.cardImgContainer {
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardImgContainer img {
+  width: 20px;
+  cursor: pointer;
+}
+.modalListingAttributes {
+  overflow-x: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+}
+.modalCardScroll,
+.modalListingAttributes:hover,
+.modalListingAttributes:focus {
+  visibility: visible;
+  height: 120px;
+}
+.modalAttributes {
+  background-color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.modalAttributes h1 {
+  color: #00c2cb;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+  width: 100%;
+}
+.modalPlusIcon img {
+  width: 25px;
+  cursor: pointer;
+}
+.spinerStying {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 135px;
+}
+
+.idCustDataStyling {
+  height: 345px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoGalleryImg img {
+  cursor: pointer;
+}
+.noData {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #00c2cb;
+}
+.logoGalleryImgId img {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.logoGalleryImgId {
+  border: 1px solid white;
+}
+.logoGalleryImgId img:hover {
+  border: 1px solid #0a0a0a;
+}
+.cardScrollContent .ant-col-xxl-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noDataToShow {
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+input#color {
+  border: none;
+  width: 98%;
+}
+input#color:focus-visible {
+  outline: none;
+}
+.idBgimg {
+  width: 35%;
+}
+.studentNoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.allCardData {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.idCustCardParent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+.allCardDataInner {
+  height: 245px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.idCustCardLeft {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 18px;
+  color: white;
+}
+.idCustCardRight {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: 300;
+}
+.studentNoo {
+  width: 175px;
+  margin: auto;
+  word-break: break-all;
+  display: flex;
+}
+.numm {
+  width: 175px;
+  margin: auto;
+  word-break: break-all;
+  display: flex;
+  font-size: 0.75rem;
+  color: white;
+}
+.idCustCardRightInner {
+  width: 71%;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+}
+.react-colorful__pointer.react-colorful__saturation-pointer {
+  display: none;
+}
+.react-colorful__saturation {
+  display: none;
+}
+.idColorPicker.react-colorful {
+  width: 160px !important;
+  height: 20px !important;
+}
+.react-colorful__pointer {
+  width: 25px !important;
+  height: 25px !important;
+}
+.react-colorful__last-control {
+  border-radius: 0 0 0 0;
+}
+.idImgSpinnerColor .ant-spin-dot-item {
+  background-color: white;
+}
+.idCustCardInner {
+  height: 90%;
+  border-radius: 25px;
+  width: 95%;
+}
+.qrcode__container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idcustBusinessContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+@media (max-width: 1600px) {
+  .idcustPageOuterContainer {
+    height: 490px;
+  }
+  .idcustomisationpageHeading h1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .idcustomisationpoweredText {
+    font-size: 18px;
+  }
+  .idCustColStyling form.ant-form.ant-form-horizontal {
+    width: 100%;
+  }
+  canvas#qrCode {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .cardStyle {
+    height: 90px;
+  }
+  .idCustColStyling {
+    height: 90px;
+  }
+  .modalAttributes h1 {
+    font-size: 12px;
+  }
+  .studentNo,
+  .num {
+    font-size: 12px;
+  }
+  .cardIconStyling {
+    margin: auto;
+  }
+  .idcustContainer {
+    width: 245px;
+  }
+  .studentImgContainer {
+    height: 50px;
+  }
+  .studentImgContainer img {
+    width: 40px;
+  }
+  .idCustDataStyling {
+    height: 285px;
+  }
+  .studentExamContainer {
+    padding-top: 3px;
+  }
+  .idcustBusinessContainer img {
+    width: 80px;
+    height: 50px;
+  }
+  .plusIconStyling {
+    width: 330px;
+  }
+  .idBgimg {
+    width: 34%;
+    margin-top: 30px;
+  }
+  // .idCustCardLeft {
+  //   font-size: 12px;
+  // }
+  // .numm {
+  //   font-size: 12px;
+  // }
+  .idCustCardParent {
+    height: 23px;
+  }
+  .allCardData {
+    height: 200px;
+  }
+  .logoQr {
+    height: 55px;
+  }
+  .idCustCardInner {
+    width: 85%;
+  }
+  .idCustRightLogo{
+    height: 80px;
+  }
+}
+@media (max-width: 1400px) {
+  .idcustomisationpoweredText {
+    font-size: 16px;
+  }
+  .idcustContainer,
+  .idcustContainer2,
+  .idcustContainer3 {
+    height: 95%;
+  }
+  .schoolName {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .idCustColStyling input.ant-input.inputStyling {
+    font-size: 12px !important;
+  }
+  .colorPickerContainer {
+    width: 260px;
+  }
+  .idCardStyle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .cardStyle {
+    height: 88px;
+  }
+  .studentImgContainer {
+    height: 50px;
+    width: 22%;
+  }
+  .studentImgContainer img {
+    width: 35px;
+  }
+  .idCustRightLogo {
+    height: 65px;
+  }
+  .cardIconStyling {
+    width: 151px;
+  }
+  .idcustBusinessContainer img {
+    width: 75px;
+    height: 30px;
+  }
+  .plusIconStyling {
+    width: 285px;
+  }
+  .idcustBusinessContainer {
+    height: 40px;
+  }
+  canvas#qrCode {
+    height: 35px !important;
+    width: 35px !important;
+  }
+  .logoQr {
+    height: 50px;
+  }
+  .idCustDataStyling {
+    height: 300px;
+  }
+  .idCustCardParent {
+    height: 20px;
+  }
+  .allCardDataInner {
+    height: 200px;
+  }
+  .studentImgContainer {
+    left: 125px;
+  }
+  .idCustCardInner {
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .idcustomisationpageHeading h1 {
+    font-size: 20px;
+  }
+  .colorPickerContainer {
+    width: 285px;
+  }
+  .idCustColStyling .ant-col.ant-form-item-label {
+    height: 28px;
+  }
+  .idcustContainer {
+    width: 215px;
+  }
+  .plusIconStyling {
+    width: 240px;
+  }
+  .idCustRightLogo {
+    height: 53px;
+  }
+  .idcustBusinessContainer {
+    height: 22px;
+  }
+  .logoQr {
+    height: 35px;
+  }
+  .idcustBusinessContainer img {
+    height: 18px;
+  }
+  canvas#qrCode {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .idBgimg {
+    width: 43%;
+  }
+  .studentImgContainer {
+    height: 45px;
+    top: 20px;
+  }
+  .idCustDataStyling {
+    height: 270px;
+  }
+  .idCustCardParent {
+    height: 22px;
+  }
+  .allCardDataInner {
+    width: 88%;
+  }
+  .allCardData {
+    height: 235px;
+  }
+  .idCustCardInner {
+    height: 80%;
+  }
+  .idCustCardInner {
+    width: 70%;
+  }
+}
+@media (max-width: 992px) {
+  .idcustomisationpoweredText {
+    font-size: 16px;
+    justify-content: center;
+  }
+  .idcustContainer {
+    width: 30%;
+  }
+  .idcustContainer2 {
+    width: 55%;
+  }
+  .activeIdContainer {
+    display: block;
+  }
+  .activeId {
+    font-size: 13px;
+    line-height: 32px;
+  }
+  .idCustCard {
+    width: 70%;
+    height: 100%;
+  }
+  .studentImgContainer {
+    height: 40px;
+    width: 20%;
+    left: 100px;
+  }
+  .schoolName {
+    padding-left: 0px;
+    line-height: 12px;
+  }
+  .studentImgContainer img {
+    width: 30px;
+  }
+  .idcustomisationpageHeading h1 {
+    font-size: 16px;
+    line-height: 37px;
+  }
+  .idcustomisationpageHeading {
+    width: 35%;
+  }
+  .studentName,
+  .studentNo,
+  .num,
+  .studentSchool {
+    font-size: 12px;
+  }
+  .idcustContainer,
+  .idcustContainer2,
+  .idcustContainer3 {
+    height: 97%;
+  }
+  .idcustPageOuterContainer {
+    padding-bottom: 13px;
+  }
+  .idCustFormUpload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .idCustScroll {
+    height: 20vh;
+  }
+  .scrolContent {
+    height: 20vh;
+  }
+  canvas#qrCode {
+    width: 35px !important;
+    height: 30px !important;
+  }
+  .idcustBusinessContainer {
+    padding-bottom: 5px;
+    height: 13px;
+  }
+  .idCustRightLogo {
+    padding-right: 0px;
+  }
+  .idcustBusinessContainer img {
+    height: 30px;
+  }
+  .noDataToShow {
+    font-size: 12px;
+  }
+  .plusIconStyling {
+    width: 190px;
+  }
+  .idBgimg {
+    width: 60%;
+  }
+  .idCustRightLogo {
+    height: 65px;
+  }
+  .logoQr {
+    height: 50px;
+  }
+  .idCustCardLeft,
+  .numm {
+    font-size: 0.55rem;
+  }
+  .idCustCardInner {
+    width: 80%;
+  }
+}
+@media (max-width: 820px) {
+  .studentImgContainer {
+    left: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .studentImgContainer {
+    left: 75px;
+  }
+}
+// @media (max-width: 768px) {
+//   .idBgimg {
+//     width: 66%;
+//   }
+//   .idCustRightLogoParentDiv {
+//     width: 99%;
+//   }
+//   .studentImgContainer {
+//     height: 40px;
+//     width: 30%;
+//   }
+//   .studentImgContainer {
+//     left: 60px;
+//   }
+//   .studentImgContainer {
+//     top: 13px;
+//   }
+//   .idCustCardParent {
+//     height: 20px;
+//   }
+//   // .idCustCardLeft,
+//   // .numm {
+//   //   font-size: 10px;
+//   //   line-height: 12px;
+//   // }
+//   .numm {
+//     padding-left: 18px;
+//   }
+//   .allCardData {
+//     height: 175px;
+//   }
+//   .idCustDataStyling {
+//     height: 275px;
+//   }
+//   .allCardData {
+//     width: 90%;
+//   }
+// }

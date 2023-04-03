@@ -1,0 +1,578 @@
+.ticketcustomisationContainer {
+  background-color: #0a0a0a;
+  height: 100vh;
+}
+.ticketcustomisationInnerContainer {
+  width: 80%;
+  margin: auto;
+}
+.ticketcustomisationPoweredText {
+  height: 175px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.ticketCustPageOuterContainer {
+  border: 2px solid #00c2cb;
+  border-radius: 10px;
+  height: 590px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: end;
+  padding-bottom: 20px;
+}
+.ticketCustomisationpageHeading {
+  background: #0a0a0a;
+  position: absolute;
+  width: 24%;
+  top: -5%;
+  left: 4%;
+  height: 40px;
+}
+.ticketCustomisationpageHeading h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 54px;
+  color: #5ce1e6;
+  background: transparent;
+}
+.ticketcustomisationpoweredText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: end;
+  color: #00c2cb;
+  display: block;
+}
+.ant-upload-list {
+  display: flex;
+  justify-content: end;
+}
+.ant-upload.ant-upload-select-picture-card {
+  height: 70px !important;
+  width: 200px !important;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #00c2cb !important;
+  color: #0a0a0a;
+  border: 1px solid #00c2cb !important;
+}
+.ticketCustContainer {
+  height: 96%;
+  width: 30%;
+  background-color: #00c2cb;
+  padding: 8px;
+}
+.ticketCustContainer2 {
+  padding-right: 20px;
+  height: 96%;
+  width: 56%;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  padding: 15px;
+}
+.ticketCustContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.studentCustContainer3 {
+  padding-right: 20px;
+  height: 96%;
+  width: 14%;
+  display: flex;
+  justify-content: end;
+  background-color: #00c2cb;
+  padding: 15px;
+}
+.ticketCustContainer button.ant-btn.ant-btn-primary.NLBtn {
+  height: 70px !important;
+  width: 200px !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  background-color: #00c2cb !important;
+  color: #0a0a0a !important;
+  border: 1px solid #00c2cb !important;
+}
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  display: none !important;
+}
+.ticketCustColStyling label {
+  color: white !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+}
+.ticketCustColStyling .ant-form-item-label > label {
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.ticketCustColStyling .ant-col {
+  max-width: 45%;
+}
+.ticketCustColStyling input.ant-input.inputStyling {
+  height: 25px !important;
+  border-radius: 5px !important;
+  width: 100%;
+}
+.ticketCustColStyling .ant-form-item-explain-error {
+  font-size: 12px !important;
+}
+.ticketCustCard {
+  height: 340px;
+  width: 33%;
+  z-index: 1;
+  position: absolute;
+}
+.ticketPickColorContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+  align-items: center;
+}
+.ticketOr {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 25px;
+  display: block;
+  text-align: left;
+}
+.ticketPickColor {
+  color: white;
+  font-style: normal;
+  line-height: 20px;
+  text-align: left;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ticketColorPickerContainer {
+  padding-right: 20px;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.ticketCustContainer .ant-row.ant-form-item-row {
+  display: flex;
+  justify-content: space-between;
+}
+.ticketExpiresDate {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  padding-bottom: 10px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.datenTime {
+  padding-bottom: 15px;
+}
+.studentInfoname,
+.studentInfonNum {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.ticketStudentInfo {
+  width: 100%;
+  margin: auto;
+}
+.ticketStudentInfo .studentInfoname {
+  border-right: 1px solid white;
+}
+.ticketPickGallery {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  display: block;
+}
+.ticketCustlogoContainer2 {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ticketCustlogoContainer2 img {
+  width: 55px;
+  height: 70px;
+  object-fit: contain;
+}
+.ticketCustlogoContainer img {
+  width: 45px;
+  height: 60px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.ticketCustlogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ticketFormUpload .ant-form-item {
+  margin-bottom: 0px;
+}
+.ticketLogoOr {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.ticketCustLogoGallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 70%;
+  margin: auto;
+}
+.ticketCustColStyling .ant-form-item {
+  margin-bottom: 15px;
+}
+.ant-col.ant-form-item-label {
+  width: 75px;
+  height: 45px;
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+.ticketCustColStyling {
+  height: 130px;
+  width: 100%;
+}
+.ticketCustColStyling form.ant-form.ant-form-horizontal {
+  height: 85px;
+}
+.ticketActiveIdContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 3vh;
+  align-items: center;
+}
+.ticketActiveId {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.ant-switch-checked {
+  background-color: white !important;
+}
+.ant-switch-handle::before {
+  background-color: black !important;
+}
+.ant-switch {
+  background-color: white !important;
+}
+.dividerCircle {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+.dividerStyling {
+  display: flex;
+}
+.ant-divider-horizontal {
+  width: 100% !important;
+  min-width: 60% !important;
+}
+.dividerCircleOuterContainerleft,
+.dividerCircleOuterContainerright {
+  width: 15px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.dividerCircleOuterContainerright {
+  justify-content: start;
+}
+
+.ticketInputStyling input.ant-input.inputStyling {
+  height: 40px !important;
+  width: 100px;
+  text-align: center !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  border: 1px solid #0a0a0a !important;
+}
+.ticketDateTag,
+.ticketTimeTag,
+.ticketTime,
+.TicketDate {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 20px;
+  font-weight: 600;
+}
+.ticketInputStyling {
+  padding-bottom: 15px;
+}
+.ticketCardStyle {
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+}
+.cardScrollContent,
+.ticketCardStyle:hover,
+.ticketCardStyle:focus {
+  visibility: visible;
+  width: 100%;
+}
+.cardScrollContent .ant-row {
+  width: 100%;
+}
+.noDataWhite {
+  color: #0a0a0a;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 40px;
+  width: 410px;
+}
+.ticketStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 210px;
+}
+.noImgsTicket {
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ticketBgimg {
+  width: 200px;
+}
+.ticketScanner {
+  padding-bottom: 15px;
+}
+.iconParentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.react-colorful__last-control {
+  border-radius: 0 0 0 0 !important;
+}
+.react-colorful {
+  width: 205px !important;
+  height: 20px !important;
+}
+.react-colorful__pointer.react-colorful__hue-pointer {
+  cursor: pointer;
+}
+@media (max-width: 1600px) {
+  .ticketCustPageOuterContainer {
+    height: 490px;
+  }
+  .ticketCustomisationpageHeading h1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .ticketCustomisationpageHeading {
+    width: 30%;
+  }
+  .ticketcustomisationpoweredText {
+    font-size: 18px;
+  }
+  .noDataWhite {
+    width: 265px;
+    height: 50px;
+  }
+  .ticketCustColStyling form.ant-form.ant-form-horizontal {
+    height: 75px;
+  }
+  .ticketCustColStyling {
+    height: 100px;
+  }
+  .ticketCardStyle {
+    height: 90px;
+  }
+  .ticketCustLogoGallery {
+    height: 50px;
+  }
+  .ticketCustLogoGallery {
+    width: 85%;
+  }
+}
+@media (max-width: 1400px) {
+  .ticketcustomisationpoweredText {
+    font-size: 16px;
+  }
+  .ticketCustContainer,
+  .ticketCustContainer2,
+  .studentCustContainer3 {
+    height: 95%;
+  }
+  .ticketCardStyle {
+    height: 88px;
+  }
+  .ticketCustCard {
+    width: 39%;
+  }
+  .noImgsTicket {
+    height: 33vh;
+  }
+  .noDataWhite {
+    width: 220px;
+    line-height: 22px;
+    margin: auto;
+  }
+  .ticketCustLogoGallery {
+    height: 50px;
+  }
+  .ticketFormUpload form.ant-form.ant-form-horizontal {
+    height: 60px;
+  }
+  .ticketCustContainer2 {
+    width: 55%;
+  }
+  .ticketCustContainer3 {
+    width: 15%;
+  }
+  .ticketBgimg {
+    width: 180px;
+  }
+  .ticketCustlogoContainer2 img {
+    height: 50px;
+  }
+  .ticketActiveId {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .ticketCustomisationpageHeading h1 {
+    font-size: 20px;
+  }
+  .ticketInputStyling input.ant-input.inputStyling {
+    height: 50px !important;
+    width: 115px;
+    font-size: 20px !important;
+  }
+  .ticketExpiresDate {
+    font-size: 14px;
+  }
+  .ticketStyle {
+    height: 175px;
+  }
+  .ticketScanner canvas#qrCode {
+    height: 35px !important;
+    width: 35px !important;
+  }
+}
+@media (max-width: 992px) {
+  .ticketcustomisationpoweredText {
+    font-size: 16px;
+    justify-content: center;
+  }
+  .ticketCustContainer {
+    width: 30%;
+  }
+  .ticketCustContainer2 {
+    width: 55%;
+  }
+  .ticketActiveIdContainer {
+    display: block;
+  }
+  .ticketActiveId {
+    font-size: 12px;
+    line-height: 32px;
+  }
+  .ticketCustCard {
+    width: 60%;
+    height: 85%;
+  }
+  .ticketCustomisationpageHeading h1 {
+    font-size: 16px;
+    line-height: 37px;
+  }
+  .ticketCustomisationpageHeading {
+    width: 35%;
+  }
+  .ticketInputStyling input.ant-input.inputStyling {
+    height: 40px !important;
+  }
+  .ticketCustContainer,
+  .ticketCustContainer2,
+  .studentCustContainer3 {
+    height: 97%;
+  }
+  .ticketFormUpload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ticketPickGallery {
+    font-size: 12px;
+  }
+  .ticketBgimg {
+    width: 155px;
+  }
+  .ticketCustlogoContainer2 img {
+    height: 35px;
+  }
+  .ticketCustlogoContainer2 {
+    align-items: end;
+    padding-bottom: 15px;
+  }
+  .react-colorful__pointer {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+.ticketCustColStyling .ant-form-item-label > label {
+  font-size: 12px !important;
+}
+.ticketPickColor {
+  font-size: 12px;
+}
+}
+@media(max-width: 820px){
+  .ticketDateTag,
+.ticketTimeTag,
+.ticketTime,
+.TicketDate {
+  font-size: 0.55rem;
+}
+}

@@ -1,0 +1,254 @@
+.clubDetailContainer {
+  background-color: #0a0a0a;
+  height: 100vh;
+}
+.clubDetailInnerContainer {
+  width: 80%;
+  margin: auto;
+}
+.clubDetailPoweredText {
+  height: 170px;
+}
+.clubDetailNLBtnStyling {
+  padding-top: 22px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.clubDetailTwoBtns {
+  display: flex;
+  justify-content: end;
+}
+.clubDetailTwoBtns button.ant-btn.ant-btn-primary.NLBtn {
+  height: 60px !important;
+  width: 175px !important;
+  font-family: "Helvetica" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  background-color: #00c2cb !important;
+  color: #0a0a0a !important;
+  border: 1px solid #00c2cb !important;
+}
+.deleteBtn button.ant-btn.ant-btn-primary.NLBtn {
+  background-color: red !important;
+  border: 1px solid red !important;
+  color: white !important;
+}
+.clubDetailPageOuterContainer {
+  border: 2px solid #00c2cb;
+  border-radius: 10px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clubDetailpageHeading {
+  background: #0a0a0a;
+  position: absolute;
+  width: 35%;
+  top: -5%;
+  left: 4%;
+}
+.tenLength {
+  background: #0a0a0a !important;
+  position: absolute;
+  width: 25%;
+  top: -5%;
+  left: 4%;
+}
+.tweentyLength {
+  background: #0a0a0a !important;
+  position: absolute;
+  width: 26%;
+  top: -5%;
+  left: 4%;
+}
+.fourtyLength {
+  background: #0a0a0a !important;
+  position: absolute;
+  top: -5%;
+  left: 4%;
+  width: 35%;
+}
+.sixtyLength {
+  background: #0a0a0a !important;
+  position: absolute;
+  top: -5%;
+  left: 4%;
+  width: 45%;
+}
+.maxLength {
+  background: #0a0a0a !important;
+  position: absolute;
+  top: -5%;
+  left: 4%;
+  width: 50%;
+}
+.tenLength h1,
+.tweentyLength h1,
+.fourtyLength h1,
+.sixtyLength h1,
+.maxLength h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: #5ce1e6;
+  background: transparent;
+}
+.clubDetailcustColStyling .ant-col.ant-col-8 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.clubDetailpoweredText {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: end;
+  color: #00c2cb;
+  display: block;
+}
+.clubDetailInputScroll {
+  width: 50%;
+  margin: auto;
+  height: 200px;
+}
+.clubDetailInputScroll label {
+  color: #5ce1e6 !important;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px !important;
+  line-height: 18px;
+  width: 150px;
+}
+input.ant-input.inputStyling {
+  margin-bottom: 10px;
+}
+button.ant-btn.ant-btn-primary {
+  background-color: #5ce1e6;
+  border: 1px solid #5ce1e6;
+}
+.ant-modal.ant-modal-confirm.ant-modal-confirm-confirm .ant-modal-content {
+  border-radius: 15px !important;
+}
+.ant-modal.ant-modal-confirm.ant-modal-confirm-confirm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+}
+.clubDetailInputScroll .ant-col.ant-form-item-label {
+  width: 150px !important;
+  height: 30px;
+}
+.clubDetailTwoBtns .ant-modal-body {
+  height: 90px;
+}
+.footerCustomStyling {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+}
+.delBtnFooter .footerCustomStyling button.ant-btn.ant-btn-primary.NLBtn {
+  background-color: red !important;
+  border: 1px solid red !important;
+}
+.cancelBTnStyling button.ant-btn.ant-btn-primary.NLBtn {
+  background-color: white !important;
+  border: 1px solid gray !important;
+  color: black !important;
+}
+.footerCustomStyling button.ant-btn.ant-btn-primary.NLBtn {
+  height: 35px !important;
+  border-radius: 0px !important;
+}
+@media (max-width: 1600px) {
+  .clubDetailPoweredText {
+    height: 170px;
+  }
+  .clubDetailPageOuterContainer {
+    height: 545px;
+  }
+  .tenLength h1,
+  .tweentyLength h1,
+  .fourtyLength h1,
+  .sixtyLength h1,
+  .maxLength h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .clubDetailpoweredText {
+    font-size: 18px;
+  }
+  .clubDetailPageOuterContainer {
+    height: 460px;
+  }
+}
+@media (max-width: 1400px) {
+  .clubDetailpoweredText {
+    font-size: 16px;
+  }
+  .clubDetailTwoBtns button.ant-btn.ant-btn-primary.NLBtn {
+    font-size: 18px !important;
+  }
+  .tenLength h1,
+  .tweentyLength h1,
+  .fourtyLength h1,
+  .sixtyLength h1,
+  .maxLength h1 {
+    font-size: 33px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 1200px) {
+  .clubDetailTwoBtns button.ant-btn.ant-btn-primary.NLBtn,
+  button.ant-btn.ant-btn-primary.largeBtndisabled {
+    height: 65px !important;
+    width: 165px !important;
+  }
+  .tenLength h1,
+  .tweentyLength h1,
+  .fourtyLength h1,
+  .sixtyLength h1,
+  .maxLength h1 {
+    font-size: 25px;
+  }
+  .clubDetailInputScroll {
+    width: 75%;
+  }
+  .ant-form-item-label > label {
+    font-size: 20px !important;
+    width: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .clubDetailTwoBtns button.ant-btn.ant-btn-primary.NLBtn,
+  button.ant-btn.ant-btn-primary.largeBtndisabled {
+    height: 55px !important;
+    width: 140px !important;
+    font-size: 14px !important;
+  }
+  .clubDetailpoweredText {
+    font-size: 16px;
+    justify-content: center;
+  }
+  .clubDetailPageOuterContainer {
+    height: 450px;
+  }
+  .tenLength h1,
+  .tweentyLength h1,
+  .fourtyLength h1,
+  .sixtyLength h1,
+  .maxLength h1 {
+    font-size: 18px;
+    line-height: 35px;
+  }
+}
